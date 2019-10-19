@@ -1,0 +1,19 @@
+.filter {
+  @apply flex flex-wrap justify-center items-center bg-white py-3;
+
+  > .button {
+    @apply rounded py-2 px-4 text-gray-600 mx-1 w-1/3;
+
+    &:hover {
+      @apply bg-blue-100 text-blue-500;
+    }
+
+    &.active {
+      @apply bg-blue-100 text-blue-500;
+    }
+
+    @screen md {
+      @apply w-auto;
+    }
+  }
+}

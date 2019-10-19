@@ -1,0 +1,7 @@
+.login-cta {
+  @apply fixed bottom-0 left-0 w-full shadow bg-clockwork text-white py-2 px-8;
+
+  @screen md {
+    @apply static w-auto;
+  }
+}
