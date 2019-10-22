@@ -1,26 +1,43 @@
 import React from "react";
 import "./filter.scss";
 
-const Filter = () => {
+const Filter = ({ active, setFilter }) => {
   return (
     <div className="filter font-nunito">
-      <button className="button active" type="button">
+      <button
+        onClick={() => setFilter("")}
+        className={`button ${active === "" && "active"}`}
+        type="button"
+      >
         Todos
       </button>
-      <button className="button" type="button">
-        Playas
+      <button
+        onClick={() => setFilter("aventura")}
+        className={`button ${active === "aventura" && "active"}`}
+        type="button"
+      >
+        Aventura
       </button>
-      <button className="button" type="button">
-        Restaruantes
+      <button
+        onClick={() => setFilter("arqueologia")}
+        className={`button ${active === "arqueologia" && "active"}`}
+        type="button"
+      >
+        Arqueología
       </button>
-      <button className="button" type="button">
-        Cenotes
+      <button
+        onClick={() => setFilter("naturaleza")}
+        className={`button ${active === "naturaleza" && "active"}`}
+        type="button"
+      >
+        Naturaleza
       </button>
-      <button className="button" type="button">
-        Tours
-      </button>
-      <button className="button" type="button">
-        Parques
+      <button
+        onClick={() => setFilter("cultural")}
+        className={`button ${active === "cultural" && "active"}`}
+        type="button"
+      >
+        Cultural
       </button>
     </div>
   );
