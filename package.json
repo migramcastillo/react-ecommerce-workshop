@@ -1,7 +1,7 @@
 {
-  "name": "tailwind-workshop-node",
+  "name": "react-ecommerce-workshop",
   "version": "1.0.0",
-  "description": "",
+  "description": "React Demo Workshop",
   "main": "index.js",
   "scripts": {
     "dev": "parcel index.html",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/migramcastillo/tailwind-workshop-node.git"
+    "url": "git+https://github.com/migramcastillo/react-ecommerce-workshop.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/migramcastillo/tailwind-workshop-node/issues"
+    "url": "https://github.com/migramcastillo/react-ecommerce-workshop/issues"
   },
-  "homepage": "https://github.com/migramcastillo/tailwind-workshop-node#readme",
+  "homepage": "https://github.com/migramcastillo/react-ecommerce-workshop#readme",
   "dependencies": {
     "parcel": "^1.12.4",
     "react": "^16.10.2",
